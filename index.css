@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+/* Result section */
+#result {
+    margin-top: 20px;
+}
+
+.alert {
+    margin-bottom: 0;
+}
+
+/* Input field */
+.form-control {
+    border-radius: 6px;
+}
+
+/* Placeholder text */
+.form-control::placeholder {
+    color: #aaa;
+}
+
+/* Small text below input */
+.form-text {
+    color: #888;
+}
+
+/* Error message */
+.alert-danger {
+    border-radius: 6px;
+}
+
+/* Styled button hover effect */
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Styled button active effect */
+.btn-primary:active {
+    background-color: #0056b3;
+    border-color: #004a8c;
+}
